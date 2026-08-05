@@ -34,9 +34,12 @@ useHead({
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 .text-gradient {
-    background: linear-gradient(135deg, #15157d 0%, #00696f 100%);
+    background: linear-gradient(135deg, #15157d 0%, #2563eb 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.bg-radial-fade {
+    background: radial-gradient(circle at center, transparent 30%, #f7f9fb 70%);
 }
 
 @keyframes float {
